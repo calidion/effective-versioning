@@ -1,4 +1,4 @@
-# npmver
+# effver
 
 npm包安装、管理与版本升级规范
 
