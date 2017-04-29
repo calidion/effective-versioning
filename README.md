@@ -9,7 +9,7 @@
 5. Software versioning should be able to indicate greate changes from architecture or product ideas, which is called major versions.
 6. Software versioning should be able to indicate fixes and security updates, which is called patch version.
 
-## Can you promise that your minor versions will never break compatibity?
+## Can you promise that your minor/patch versions will never break?
 
 I don't think so. 
 
