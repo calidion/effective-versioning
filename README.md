@@ -1,4 +1,28 @@
-# effver
+# Effective Versioning
+
+## Basic Principals
+
+1. No package maintainers can keep such promise that they will always release compatible software even if they try to.
+2. Compatibility is very important to software integrity, so keep compatiblity is maintainers' virtue.
+3. Never do auto upgrade, only upgrade when packages are fully tested.
+4. Software versioning should be able to indicate small changes, which is called minor versions.
+5. Software versioning should be able to indicate greate changes from architecture or product ideas, which is called major versions.
+6. Software versioning should be able to indicate fixes and security updates, which is called patch version.
+
+## Can you promise that your minor versions will never break compatibity?
+
+I don't think so. 
+
+## Format
+
+MAJOR.MINOR.PATCH-(alpha|beta)-NO
+
+1. MAJOR: architectural changes or product upgrades
+2. MINOR: small breaks and mostly continuous changes
+3. PATCH: fixes or security updates, can be broken
+
+
+## npm 包版本管理建议
 
 npm包安装、管理与版本升级规范
 
