@@ -3,23 +3,25 @@
 ## Basic Principals
 
 1. No package maintainers can keep such promise that they will always release compatible software even if they try to.
-2. Compatibility is very important to software integrity, so keep compatiblity is maintainers' virtue.
-3. Never do auto upgrade, only upgrade when packages are fully tested.
-4. Software versioning should be able to indicate small changes, which is called minor versions.
-5. Software versioning should be able to indicate greate changes from architecture or product ideas, which is called major versions.
-6. Software versioning should be able to indicate fixes and security updates, which is called patch version.
+2. Compatibility is very important to software integrity, so keeping the compatibilities betwenn versions is maintainers' virtue.
+3. Never do auto upgrade, only upgrade when packages are fully tested by your self.
+4. Software versioning should be able to indicate small changes, which is called the minor versions.
+5. Software versioning should be able to indicate greate changes from architecture or product ideas, which is called the major versions.
+6. Software versioning should be able to indicate fixes and security updates, which is called the patch versions.
 
-## Can you promise that your minor/patch versions will never break?
+## Can you promise that your minor/patch versions will never break compatibilities?
 
 I don't think so. 
+I think there are a lot of packages will break even they are assumed that they should not.
+
 
 ## Format
 
 MAJOR.MINOR.PATCH-(alpha|beta)-NO
 
 1. MAJOR: architectural changes or product upgrades
-2. MINOR: small breaks and mostly continuous changes
-3. PATCH: fixes or security updates, can be broken
+2. MINOR: small breaks and mostly continuous changes, can be broken too.
+3. PATCH: fixes or security updates, can be broken too.
 
 
 ## npm 包版本管理建议
